@@ -1,0 +1,15 @@
+---
+# Jenkins settings
+jenkins_home: /var/lib/jenkins
+jenkins_process_user: jenkins
+jenkins_process_group: "{{ jenkins_process_user }}"
+jenkins_host: 127.0.0.1
+jenkins_port: 8080
+
+jenkins_security_init_scripts:
+- security-realm.groovy.j2
+
+# Github OAuth settings
+jenkins_github_oauth_web_uri: "https://github.com"
+jenkins_github_oauth_api_uri: "https://api.github.com"
+jenkins_github_oauth_scopes: "read:org,user:email"
