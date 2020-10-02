@@ -7,7 +7,7 @@ jenkins_host: 127.0.0.1
 jenkins_port: 8080
 
 jenkins_security_init_scripts:
-- security-realm.groovy.j2
+  - security-realm.groovy.j2
 
 # Github OAuth settings
 jenkins_github_oauth_web_uri: "https://github.com"
