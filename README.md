@@ -16,7 +16,7 @@ Ansible role for installing and configuring Github OAuth on Jenkins
 
 ## Examples
 ```
-  - role: binbash_inc.jenkins-github-oauth
+  - role: binbash_inc.ansible_role_jenkins_github_oauth
     jenkins_github_oauth_client_id: "your-github-oauth-client-id"
     jenkins_github_oauth_client_secret: "your-github-oauth-client-secret"
 
